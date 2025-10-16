@@ -1,0 +1,7 @@
+llm:
+  groq:
+    provider: "groq"
+    model: "meta-llama/llama-4-scout-17b-16e-instruct"
+  openai:
+      provider: "openai"
+      model: "o4-mini"
