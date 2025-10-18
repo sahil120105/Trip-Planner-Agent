@@ -6,7 +6,7 @@ import sys
 BASE_URL = "http://localhost:8000" # FastAPI backend URL
 
 st.set_page_config(
-    page_title="✈️Trip Planner Agent",
+    page_title="Trip Planner Agent",
     page_icon="✈️",
     layout="centered",
     initial_sidebar_state="expanded",

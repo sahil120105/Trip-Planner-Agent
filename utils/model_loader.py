@@ -13,8 +13,8 @@ class ConfigLoader:
         print("Loading config...")
         self.config = load_config()
         
-        def __getitem__(self, key):
-            return self.config.get(key)
+    def __getitem__(self, key):
+        return self.config.get(key)
 
 class ModelLoader(BaseModel):
     
